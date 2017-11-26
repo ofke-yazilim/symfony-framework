@@ -3,7 +3,7 @@
 
 <h4>1- Uygulama Hakkında.</h4>
 Bu uygulama Symfony 2.8 üzerinde netbeans derleyicisi kullanılarak hazırlanmıştır. Uygulama üzerinde local windows makinası üzerine Wamp server kurularak çalışılmıştır.
-Uygulama Türkiye Cumhuriyeti Merkez Bankası, doviz.com ve doviz.net üzerinden xml ya da json olarak alınan kur bilgilerinin<br>
+Uygulama Türkiye Cumhuriyeti Merkez Bankası, doviz.com ve doviz.net üzerinden xml ya da json olarak alınan kur bilgilerinin
 adapter patterni ile işlendikten sonra command console uygulaması ve doctrine kullanılarak veritabanına yazılması ve sonrasında facede patterni kullanılarak  alış ve satış tutarına göre en düşük tutarların hesaplanarak kullanıcı arayüz kısmında listelenmesinden oluşmuştur.
 
 <h4>2- XML ya da Json Verilerin Adapter Pattern ile İşlenmesi.</h4>

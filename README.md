@@ -29,7 +29,7 @@ Yazmış olduğum console command uygulamasına <strong>create-currency</strong>
 <strong>php app/console app:create-currency</strong> yazmamız yeterli olacaktır. Bu sayede xml ya da json üzerinden array olarak alınan veriler veritabanı üzerine kayıt edilir.
 Veri Tabanı İçeriğini : https://github.com/ofke-yazilim/symfony-framework/blob/master/currancy.sql adresinden inceleyebilirsiniz.
 
-<h4>Kullanıcı Arayüz Ayaları.</h4>
+<h4>4- Kullanıcı Arayüz Ayaları.</h4>
 app/config/routing.yml içerisinde kurların <strong>your-domain-adres/currancy/list</strong> adresinde listelenmesini sağlamak ve 
 <strong>src/Controller/CurrancyController.php</strong> controller sınıfının içerisinde bulunan <strong>currancyAction</strong> fonksiyonunun kulanılmasının sağlanması için 
 gerekli tanımlar yapıldı. İncelemek için : https://github.com/ofke-yazilim/symfony-framework/blob/master/app/config/routing.yml adresini tıklayın.

@@ -10,7 +10,8 @@ adapter patterni ile işlendikten sonra command console uygulaması ve doctrine 
 Yukarıda bulunan proje dosyalarından https://github.com/ofke-yazilim/symfony-framework/tree/master/src/AppBundle/Command yolunu takip ederseniz 
 kur bilgilerini içeren xml ya da json verilerin işlendiği sınıflara ulaşabilirsiniz. Burada bulunan class dosyalarının gerçeklediği işlemler aşağıda 
 listelenmiştir.
-
+<br>
+<ul>
 <li>https://github.com/ofke-yazilim/symfony-framework/blob/master/src/AppBundle/Command/serviceAdapter.php : Bu dosya interface içerir. 
     İnterface ise diğer adapter classlar üzerinde kullanacağımız fonksiyonu barındırır.</li>
 <li>https://github.com/ofke-yazilim/symfony-framework/blob/master/src/AppBundle/Command/webservices.php : Bu dosya verilerin işlenerek array olarak oluşmasını sağlayan adapter classımızı içerir.</li>
@@ -18,3 +19,4 @@ listelenmiştir.
     hangi fonksiyon kullanılarak array olarak oluşturulacağını belirtir.</li>
 <li>https://github.com/ofke-yazilim/symfony-framework/blob/master/src/AppBundle/Command/dovizcomAdapter.php : Bu dosya doviz.com üzerinden gelen kur bilgilerininin webservices.php içerisinde 
     hangi fonksiyon kullanılarak array olarak oluşturulacağını belirtir.</li>
+</ul>

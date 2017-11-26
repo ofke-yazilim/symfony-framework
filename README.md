@@ -9,8 +9,8 @@ adapter patterni ile işlendikten sonra command console uygulaması ve doctrine 
 <h4>2- XML ya da Json Verilerin Adapter Pattern ile İşlenmesi.</h4>
 Yukarıda bulunan proje dosyalarından https://github.com/ofke-yazilim/symfony-framework/tree/master/src/AppBundle/Command yolunu takip ederseniz 
 kur bilgilerini içeren xml ya da json verilerin işlendiği sınıflara ulaşabilirsiniz. Burada bulunan class dosyalarının gerçeklediği işlemler aşağıda 
-listelenmiştir.
-<br>
+listelenmiştir.(Not : doviz.net verileri adapter pattern ile işlenmemiştir. Command console uygulaması yazılırken direk olarak dahil edilmiştir.)
+<br><br>
 <ul>
 <li>https://github.com/ofke-yazilim/symfony-framework/blob/master/src/AppBundle/Command/serviceAdapter.php : Bu dosya interface içerir. 
     İnterface ise diğer adapter classlar üzerinde kullanacağımız fonksiyonu barındırır.</li>
@@ -20,3 +20,11 @@ listelenmiştir.
 <li>https://github.com/ofke-yazilim/symfony-framework/blob/master/src/AppBundle/Command/dovizcomAdapter.php : Bu dosya doviz.com üzerinden gelen kur bilgilerininin webservices.php içerisinde 
     hangi fonksiyon kullanılarak array olarak oluşturulacağını belirtir.</li>
 </ul>
+
+<h4>3- Veritabanı ve Console Command İşlemleri.</h4>
+Adapter pattern kullanarak işlediğim ve array olarak almış olduğum verileri, oluşturduğum currancy veritabanı üzerindeki currency
+tablosu üzerine ekledim. Bu ekleme işlemini console command kullanarak yaptım. Yazmış olduğum console command kodlarına https://github.com/ofke-yazilim/symfony-framework/blob/master/src/AppBundle/Command/CreateCurrancyCommand.php
+adresini tıklayarak ulaşabilirsiniz. Currency entity sınıfına ise https://github.com/ofke-yazilim/symfony-framework/blob/master/src/AppBundle/Entity/currency.php tıklayarak ulaşabilirsiniz.
+Yazmış olduğum console command uygulamasına <strong>create-currency</strong> ismini verdim bu uygulamayı çalıştırmak console ekranında projenin bulunduğu dosya yoluna gidilerek 
+<strong>php app/console app:create-currency</strong> yazmamız yeterli olacaktır. Bu sayede xml ya da json üzerinden array olarak alınan veriler veritabanı üzerine kayıt edilir.
+

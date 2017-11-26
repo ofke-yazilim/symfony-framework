@@ -2,7 +2,7 @@
 Örnek Bir Symfony Projesi
 
 <h4>1- Uygulama Hakkında.</h4>
-Bu uygulama Symfony 2.8 üzerinde netbeans derleyicisi kullanılarak hazırlanmıştır.<br>
+Bu uygulama Symfony 2.8 üzerinde netbeans derleyicisi kullanılarak hazırlanmıştır. Uygulama üzerinde local windows makinası üzerine Wamp server kurularak çalışılmıştır.
 Uygulama Türkiye Cumhuriyeti Merkez Bankası, doviz.com ve doviz.net üzerinden xml ya da json olarak alınan kur bilgilerinin<br>
 adapter patterni ile işlendikten sonra command console uygulaması ve doctrine kullanılarak veritabanına yazılması ve sonrasında facede patterni kullanılarak  alış ve satış tutarına göre en düşük tutarların hesaplanarak kullanıcı arayüz kısmında listelenmesinden oluşmuştur.
 

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/wamp64/www/s/proje/app/Resources/views/currancy/currancyList.html.twig</file>
+            <file>file:/C:/wamp64/www/s/proje/src/AppBundle/Entity/currency.php</file>
+            <file>file:/C:/wamp64/www/s/proje/src/AppBundle/Command/webservices.php</file>
+            <file>file:/C:/wamp64/www/s/proje/src/AppBundle/Controller/CurrancyController.php</file>
+            <file>file:/C:/wamp64/www/s/proje/src/AppBundle/Command/CreateCurrancyCommand.php</file>
+            <file>file:/C:/wamp64/www/s/proje/src/AppBundle/Command/serviceAdapter.php</file>
+            <file>file:/C:/wamp64/www/s/proje/app/config/parameters.yml</file>
+            <file>file:/C:/wamp64/www/s/proje/src/AppBundle/Command/tcmbAdapter.php</file>
+        </group>
+    </open-files>
+</project-private>

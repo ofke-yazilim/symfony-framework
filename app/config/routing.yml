@@ -1,0 +1,13 @@
+app:
+    resource: '@AppBundle/Controller/'
+    type: annotation
+    
+# app/config/routing.yml
+currancy_list:
+    path:     /currancy
+    defaults: { _controller: AppBundle:Currancy:index }
+
+currancy_list:
+    path:     /currancy/list
+    defaults: { _controller: AppBundle:Currancy:currancyList }
+    

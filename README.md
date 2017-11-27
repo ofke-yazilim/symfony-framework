@@ -35,4 +35,6 @@ app/config/routing.yml içerisinde kurların <strong>your-domain-adres/currancy/
 gerekli tanımlar yapıldı. İncelemek için : https://github.com/ofke-yazilim/symfony-framework/blob/master/app/config/routing.yml adresini tıklayın.
 
 Kullanıcı arayüz kısmında kullanılan verilerin veritabanı üzerinde çekilesi işlemleri ise Facede Patterni kullanılarak yapıldı. Facede sınıflarına ulaşmak ve 
-incelemek için https://github.com/ofke-yazilim/symfony-framework/tree/master/src/AppBundle/facede adresini tıklayabilirsiniz.
+incelemek için https://github.com/ofke-yazilim/symfony-framework/tree/master/src/AppBundle/facede adresini tıklayabilirsiniz. İşlemlerimi yürüttüğüm controller sınıfımı ise
+https://github.com/ofke-yazilim/symfony-framework/blob/master/src/AppBundle/Controller/CurrancyController.php adresi üzerinde inceleyebilirsiniz.
+
